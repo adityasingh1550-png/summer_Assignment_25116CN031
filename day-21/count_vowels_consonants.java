@@ -12,11 +12,14 @@ public static void main(String[] args)
     for(int i=0;i<str.length();i++)
     {
         char ch=str.charAt(i);
+        if(Character.isLetter(ch))
+           {
+            
         if(str1.indexOf(ch)==-1)
             cc++;
         else
             cv++;
-    }
+    }}
     System.out.println("Number of vowels in string "+str+" is "+cv+" and consonants is "+cc);
 }
 }
