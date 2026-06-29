@@ -198,18 +198,18 @@ class Bank_accounts
                 
                 case 5:
                     System.out.print("Enter Sender Account Number: ");
-int sender = sc.nextInt();
+                    int sender = sc.nextInt();
 
-System.out.print("Enter PIN: ");
-int pin4= sc.nextInt();
+                    System.out.print("Enter PIN: ");
+                    int pin4= sc.nextInt();
 
-System.out.print("Enter Receiver Account Number: ");
-int receiver = sc.nextInt();
+                    System.out.print("Enter Receiver Account Number: ");
+                    int receiver = sc.nextInt();
 
-System.out.print("Enter Amount: ");
-double amount = sc.nextDouble();
+                    System.out.print("Enter Amount: ");
+                    double amount = sc.nextDouble();
 
-bank.transferMoney(sender, pin4, receiver, amount);
+                    bank.transferMoney(sender, pin4, receiver, amount);
 
                 case 6:
                     System.out.println("Thank you for using Bank System.");
